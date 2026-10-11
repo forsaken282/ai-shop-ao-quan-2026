@@ -1,0 +1,519 @@
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #ec4899;
+    --accent-color: #f59e0b;
+    --dark-color: #1f2937;
+    --light-color: #f9fafb;
+    --border-color: #e5e7eb;
+    --text-color: #374151;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --danger-color: #ef4444;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ============================================
+   HEADER & NAVIGATION
+   ============================================ */
+
+.header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.header .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+/* ============================================
+   MAIN CONTENT
+   ============================================ */
+
+.main-content {
+    padding: 60px 0;
+    min-height: calc(100vh - 200px);
+}
+
+/* ============================================
+   SECTIONS
+   ============================================ */
+
+section {
+    margin-bottom: 80px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: var(--dark-color);
+    margin-bottom: 30px;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 15px;
+}
+
+.section-intro {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+/* ============================================
+   INTRO SECTION
+   ============================================ */
+
+.intro-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.intro-card {
+    background: linear-gradient(135deg, #f0f9ff 0%, #f3e8ff 100%);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.intro-card .icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.intro-card h3 {
+    font-size: 1.3rem;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+
+.intro-card p {
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+/* ============================================
+   TOOLS GRID
+   ============================================ */
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.tool-card {
+    background: white;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tool-card:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.tool-header {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tool-header h3 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.badge-recommended {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.badge-avatar {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.badge-free {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.badge-quality {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.badge-speed {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.badge-effects {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.tool-content {
+    padding: 20px;
+}
+
+.tool-content p {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.tool-content strong {
+    color: var(--dark-color);
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #4f46e5;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #db2777;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(236, 72, 153, 0.3);
+}
+
+/* ============================================
+   SALES SECTION
+   ============================================ */
+
+.solution-category {
+    margin-bottom: 50px;
+}
+
+.solution-category h3 {
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.solution-card {
+    background: white;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.solution-card:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.solution-card h4 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+
+.solution-card p {
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.solution-card strong {
+    color: var(--dark-color);
+}
+
+/* ============================================
+   COMPARISON TABLE
+   ============================================ */
+
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 30px;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.comparison-table thead {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+}
+
+.comparison-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.comparison-table td {
+    padding: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.comparison-table tbody tr:hover {
+    background-color: var(--light-color);
+}
+
+.comparison-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* ============================================
+   CONCLUSION SECTION
+   ============================================ */
+
+.conclusion-section {
+    background: linear-gradient(135deg, #f0f9ff 0%, #f3e8ff 100%);
+    padding: 40px;
+    border-radius: 10px;
+    border-left: 5px solid var(--primary-color);
+}
+
+.conclusion-content p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.conclusion-content h3 {
+    color: var(--dark-color);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.recommendation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendation-list li {
+    background: white;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border-left: 4px solid var(--primary-color);
+    line-height: 1.7;
+}
+
+.recommendation-list strong {
+    color: var(--primary-color);
+}
+
+.conclusion-highlight {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px solid var(--success-color);
+    margin-top: 30px;
+    font-weight: 500;
+    color: var(--dark-color);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.footer {
+    background-color: var(--dark-color);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header .subtitle {
+        font-size: 1rem;
+    }
+
+    .nav-menu {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro-grid,
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tool-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .badge {
+        margin-top: 10px;
+    }
+
+    .comparison-table {
+        font-size: 0.9rem;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+        padding: 10px;
+    }
+
+    .conclusion-section {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.4rem;
+    }
+
+    section h2 {
+        font-size: 1.3rem;
+    }
+
+    .intro-card,
+    .tool-card,
+    .solution-card {
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+    }
+}
