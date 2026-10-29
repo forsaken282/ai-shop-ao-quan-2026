@@ -100,6 +100,15 @@ Trang chính thức mới của **HaraSocial** nêu khả năng gom tin nhắn, 
 
 **Xếp hạng cập nhật:** Nếu cần video sản phẩm có điều kiện thương mại rõ hơn, thử Adobe Firefly Video trước; nếu cần video UGC quảng cáo nhanh từ URL, thử Creatify; nếu cần bán đa kênh Việt Nam, ưu tiên HaraSocial hoặc Sapo Chatbot AI; nếu muốn tự xây luồng Zalo với ngân sách thấp, dùng n8n + Zalo Bot + Google Sheets nhưng phải có người vận hành kỹ thuật.
 
+| Tình huống của shop | Lựa chọn ưu tiên | Vì sao |
+|---|---|---|
+| Mới bắt đầu, gần như không có ngân sách | **CapCut/Pippit + Manychat Free + Google Sheets** | Dễ thử, tạo nội dung nhanh, thu khách từ bình luận; nhân viên vẫn xác nhận đơn |
+| Muốn quảng cáo UGC từ link sản phẩm | **Creatify** | Free plan có credit định kỳ và quy trình URL-to-video rõ ràng; phù hợp thử nhiều biến thể quảng cáo |
+| Muốn video sản phẩm có tuyên bố thương mại rõ hơn | **Adobe Firefly Video** | Firefly hỗ trợ prompt/ảnh và Adobe nêu đầu ra từ Firefly Video Model an toàn cho thương mại; vẫn phải phân biệt model đối tác |
+| Bán Facebook, Instagram, TikTok, Zalo OA và Shopee Chat | **HaraSocial** | Gom hội thoại, bình luận, đơn và khách đa kênh; hỗ trợ chatbot, giỏ hàng và livestream theo trang chính thức |
+| Cần tư vấn theo tồn kho và chốt đơn Việt Nam | **Sapo Chatbot AI** | Trang chính thức nêu kiểm tra tồn kho, lấy thông tin đặt hàng, chốt/hủy đơn và dùng thử 7 ngày |
+| Muốn tự chủ luồng Zalo | **n8n + Zalo Bot + Gemini + Google Sheets** | Có workflow tiếng Việt và CRM bằng Sheets; đổi lại cần kỹ thuật, hosting và quản lý API |
+
 [A1] [Adobe Firefly AI Video Generator](https://www.adobe.com/products/firefly/features/ai-video-generator.html)  
 [A2] [Adobe Firefly Plans](https://www.adobe.com/products/firefly/plans.html)  
 [A3] [HaraSocial đa kênh — Facebook, Zalo OA, TikTok, Shopee Chat và livestream](https://www.haravan.com/pages/phan-mem-quan-ly-chat-da-kenh-harasocial)  
