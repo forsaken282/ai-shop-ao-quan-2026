@@ -88,6 +88,22 @@ Không nên để chatbot tự bịa tồn kho, tự hứa ngày giao, tự tư 
 
 Mục tiêu đúng không phải là để AI “tự làm mọi thứ” ngay từ ngày đầu, mà là tự động hóa phần lặp lại, giữ nhân viên ở các điểm rủi ro và kiểm soát dữ liệu sản phẩm. Cách triển khai an toàn là bắt đầu với 10–20 sản phẩm bán chạy, đo số cuộc hội thoại, tỷ lệ khách để lại thông tin, tỷ lệ đơn được xác nhận và tỷ lệ đổi trả, rồi mới mở rộng.
 
+## Bổ sung rà soát ngày 29/10/2026
+
+### Công cụ video mới đáng chú ý
+
+**Adobe Firefly Video** là lựa chọn mới phù hợp nếu shop ưu tiên quy trình tạo video từ prompt hoặc ảnh trong một giao diện. Trang chính thức cho biết Firefly có gói Free với số lần tạo giới hạn, hỗ trợ video sản phẩm, B-roll và clip mạng xã hội; Adobe tuyên bố đầu ra từ **Firefly Video Model** an toàn cho mục đích thương mại. Khi chọn model đối tác như Veo, Kling hoặc Runway trong cùng giao diện, cần đọc điều kiện riêng của model đó thay vì mặc định áp dụng giấy phép của Firefly. [A1] [A2]
+
+### Cập nhật giải pháp bán hàng đa kênh
+
+Trang chính thức mới của **HaraSocial** nêu khả năng gom tin nhắn, bình luận, đơn hàng và thông tin khách từ Facebook, Messenger, Instagram, TikTok for Business, Zalo OA và Shopee Chat; chatbot có thể trả lời giá, tồn kho, ưu đãi và thông số, đồng thời hỗ trợ tạo giỏ hàng và chốt đơn trên bài viết, Reels và livestream. Đây là giải pháp thương mại cần kiểm tra gói và kênh kết nối trước khi dùng chính thức. [A3]
+
+**Xếp hạng cập nhật:** Nếu cần video sản phẩm có điều kiện thương mại rõ hơn, thử Adobe Firefly Video trước; nếu cần video UGC quảng cáo nhanh từ URL, thử Creatify; nếu cần bán đa kênh Việt Nam, ưu tiên HaraSocial hoặc Sapo Chatbot AI; nếu muốn tự xây luồng Zalo với ngân sách thấp, dùng n8n + Zalo Bot + Google Sheets nhưng phải có người vận hành kỹ thuật.
+
+[A1] [Adobe Firefly AI Video Generator](https://www.adobe.com/products/firefly/features/ai-video-generator.html)  
+[A2] [Adobe Firefly Plans](https://www.adobe.com/products/firefly/plans.html)  
+[A3] [HaraSocial đa kênh — Facebook, Zalo OA, TikTok, Shopee Chat và livestream](https://www.haravan.com/pages/phan-mem-quan-ly-chat-da-kenh-harasocial)  
+
 ## Tài liệu tham khảo
 
 [1] [Pippit AI Pricing — Free daily credits, Video Agent, Image Agent](https://www.pippit.ai/pricing)  
