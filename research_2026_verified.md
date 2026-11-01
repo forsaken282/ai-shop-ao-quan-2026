@@ -79,3 +79,33 @@
 - Tự động tìm lead Free rõ nhất: Manychat Free, tối đa 1.000 contacts theo trang giá.
 - Tư vấn + kho + giỏ hàng + đơn: Haravan AI Chat/HaraSocial mạnh hơn nhưng là dịch vụ thương mại hoặc dùng thử, không phải Free vĩnh viễn.
 - Chưa tìm thấy một hệ thống Free duy nhất tự làm trọn vẹn tìm khách, tư vấn chính xác, kiểm tra tồn kho và tạo đơn COD Việt Nam mà không cần cấu hình dữ liệu và kết nối nền tảng.
+
+
+## Rà soát bổ sung ngày 01/11/2026
+
+### Google Flow
+Nguồn chính thức: https://flow.google.com/about
+- Gói Free of Charge có 50 daily Google Flow credits.
+- Bao gồm Gemini Omni Flash, Nano Banana Pro, Veo 3.1 và các công cụ Text to Video, Frames to Video, Ingredients to Video, Video Extension, video-to-video editing, Scenebuilder, Characters và Avatars.
+- Gói Free ghi Google Flow Tools (Usage only); Creation tools và upscale 1080p nằm ở gói trả phí. Cần kiểm tra khả năng xuất và quyền thương mại trước khi dùng quảng cáo chính thức.
+- Phù hợp thử video concept, clip sản phẩm và storyboard; không phải hệ thống bán hàng.
+
+### Dreamina / Seedance 2.0 và 2.5
+Nguồn chính thức: https://dreamina.capcut.com/tools/seedance-2-0
+Nguồn giá: https://dreamina.capcut.com/pricing/dreamina-price
+- Dreamina có lựa chọn Free với available credits để thử các công cụ AI.
+- Seedance hỗ trợ text-to-video, image-to-video, multimodal references, clothing, promotional videos, characters, camera movement và video mở rộng.
+- Tài liệu giá chính thức nêu tính năng trả phí gồm bỏ watermark, kéo dài thời lượng, tăng độ phân giải, tối đa 60 FPS, lip sync và hàng đợi nhanh; vì vậy Free có thể bị giới hạn các mục này.
+- Phù hợp tạo clip ngắn từ ảnh áo quần và thử quảng cáo; quota Free cụ thể cần kiểm tra trong tài khoản, không khẳng định con số ngoài trang giá.
+
+### Adobe Firefly Video
+Nguồn: https://www.adobe.com/products/firefly/features/ai-video-generator.html
+- Trang chính thức nêu Firefly AI video generator miễn phí để tạo clip từ prompt hoặc ảnh.
+- Có Firefly Video Model và model đối tác Veo, Luma, Runway, Kling; Adobe nói đầu ra từ Firefly Video Model safe for commercial use, nhưng model đối tác có điều kiện riêng.
+- Gói Free giới hạn số lần tạo; dùng cho video sản phẩm, B-roll và social clips.
+
+### HaraSocial đa kênh
+Nguồn: https://www.haravan.com/pages/phan-mem-quan-ly-chat-da-kenh-harasocial
+- Trang chính thức nêu gom Facebook, Messenger, Instagram, TikTok for Business, Zalo OA và Shopee Chat vào một giao diện.
+- Chatbot có thể trả lời giá, tồn kho, ưu đãi, thông số; tạo giỏ hàng; chốt trên bài viết, Reels và livestream; hỗ trợ thu thập thông tin khách và chia hội thoại cho nhân viên.
+- Đây là dịch vụ thương mại/trial, không phải Free vĩnh viễn.

@@ -1,4 +1,4 @@
-# AI miễn phí tạo video và tự động hóa bán hàng cho shop áo quần — bản cập nhật 11/10/2026
+# AI miễn phí tạo video và tự động hóa bán hàng cho shop áo quần — bản cập nhật 01/11/2026
 
 **Tác giả:** Manus AI  
 **Đối tượng:** Shop áo quần quy mô nhỏ và vừa tại Việt Nam  
@@ -133,3 +133,24 @@ Trang chính thức mới của **HaraSocial** nêu khả năng gom tin nhắn, 
 [16] [Sapo Chatbot AI — tư vấn, tồn kho và chốt đơn](https://www.sapo.vn/phan-mem-chat-bot.html)  
 [17] [Haravan + Meta Business Agent trên Messenger](https://www.haravan.com/pages/meta-business-agent-ai-haravan)  
 [18] [n8n Pricing — self-hosted standard version](https://n8n.io/pricing/)
+
+
+## 8. Công cụ mới được rà soát ngày 01/11/2026
+
+| Công cụ mới | Gói Free đã kiểm tra | Phù hợp cho shop áo quần | Cần lưu ý |
+|---|---|---|---|
+| **Google Flow** | Gói “Free of Charge” nêu 50 Google Flow credits mỗi ngày; có Text to Video, Frames to Video, Ingredients to Video, Video Extension và video-to-video editing [20] | Thử concept quảng cáo, clip sản phẩm, storyboard và video có Veo 3.1 | Trang Free ghi “Tools (Usage only)”; quyền xuất, khả năng dùng thương mại và điều kiện từng model cần kiểm tra trước khi chạy quảng cáo |
+| **Dreamina / Seedance 2.0–2.5** | Dreamina có lựa chọn Free với available credits; trang giá không nên được diễn giải thành quota cố định cho mọi tài khoản [21] [22] | Image-to-video cho ảnh áo quần, clothing, promotional videos, camera movement, characters và video có âm thanh | Tính năng trả phí gồm bỏ watermark, kéo dài thời lượng, tăng độ phân giải, tối đa 60 FPS, lip sync và hàng đợi nhanh; Free có thể bị giới hạn |
+| **Adobe Firefly Video** | Có Free với số lần tạo giới hạn; tạo video từ prompt hoặc ảnh [23] [24] | Video sản phẩm, B-roll và clip social; Adobe tuyên bố đầu ra từ Firefly Video Model an toàn cho thương mại | Khi dùng Veo, Luma, Runway hoặc Kling trong Firefly, phải xem điều kiện riêng của model đối tác |
+
+### Xếp hạng mới theo mục tiêu
+
+Nếu shop muốn **thử nhiều video ngắn từ ảnh sản phẩm**, nên kiểm tra Dreamina/Seedance trước, sau đó hoàn thiện bằng CapCut. Nếu shop muốn **storyboard và thử các cảnh quảng cáo có kiểm soát**, Google Flow là lựa chọn đáng thử, nhưng cần đăng nhập để kiểm tra quyền tạo và xuất thực tế của gói Free. Nếu shop ưu tiên **điều kiện thương mại rõ hơn**, dùng Firefly Video Model của Adobe thay vì mặc định dùng các model đối tác.
+
+Đối với bán hàng, các công cụ video trên chỉ tạo nội dung và không tự tìm khách hay tạo đơn. Quy trình thực tế vẫn là **video → bình luận từ khóa → Manychat/Meta Agent thu lead → HaraSocial, Sapo hoặc Haravan kiểm tra catalogue/tồn kho → xác nhận và tạo đơn**. Không nên nhầm “AI video agent” với “AI sales agent”.
+
+[20] [Google Flow — Pricing and Free of Charge plan](https://flow.google.com/about)  
+[21] [Dreamina Seedance — Text/Image-to-Video và promotional videos](https://dreamina.capcut.com/tools/seedance-2-0)  
+[22] [Dreamina Pricing — Free option, credits và tính năng trả phí](https://dreamina.capcut.com/pricing/dreamina-price)  
+[23] [Adobe Firefly AI Video Generator](https://www.adobe.com/products/firefly/features/ai-video-generator.html)  
+[24] [Adobe Firefly Plans](https://www.adobe.com/products/firefly/plans.html)
